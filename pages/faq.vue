@@ -62,13 +62,17 @@ export default {
   border-radius: 0;
 }
 
-.card-header button:focus {
+.card-header button:focus,
+.card-header button:active {
+  background: var(--bs-gray-400) !important;
   box-shadow: none;
   border: 0;
 }
+.card-header button:active {
+}
 
 .card-header button.not-collapsed {
-  background: var(--dark);
+  background: var(--dark) !important;
   color: var(--bs-white);
 }
 

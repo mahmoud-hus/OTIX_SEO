@@ -4,7 +4,7 @@
       <!-- {/* links  */} -->
       <div class="d-flex align-items-center">
         <!-- {/* logo  */} -->
-        <nuxt-link to="/">
+        <nuxt-link :to="localePath('/')">
           <img
             src="~/assets/imgs/global/logo.png"
             alt="logo"

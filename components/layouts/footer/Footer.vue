@@ -41,7 +41,7 @@
                   </a>
                   <nuxt-link
                     v-else
-                    :to="link.path"
+                    :to="localePath(link.path)"
                     :key="idx + 't'"
                     class="d-block link-item text-capitalize"
                   >
