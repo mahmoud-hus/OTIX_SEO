@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="157" height="49" viewBox="0 0 157 49">
+  <defs>
+    <filter id="Rectangle_25" x="0" y="0" width="157" height="49" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Component_1_1" data-name="Component 1 – 1" transform="translate(4.5 3.5)">
+    <g transform="matrix(1, 0, 0, 1, -4.5, -3.5)" filter="url(#Rectangle_25)">
+      <rect id="Rectangle_25-2" data-name="Rectangle 25" width="148" height="40" rx="5" transform="translate(4.5 3.5)" fill="#fff"/>
+    </g>
+    <path id="Icon_ionic-ios-arrow-back" data-name="Icon ionic-ios-arrow-back" d="M15.295,14.986l6.134-6.129A1.159,1.159,0,0,0,19.788,7.22l-6.95,6.945a1.156,1.156,0,0,0-.034,1.6l6.979,6.993a1.159,1.159,0,0,0,1.641-1.636Z" transform="translate(148.07 34.988) rotate(180)" fill="#707070"/>
+    <text id="_24_H_-_Chart" data-name="24 H - Chart" transform="translate(15 26)" fill="#707070" font-size="20" font-family="ProximaSoft-Regular, Proxima Soft"><tspan x="0" y="0">24 H - Chart</tspan></text>
+  </g>
+</svg>

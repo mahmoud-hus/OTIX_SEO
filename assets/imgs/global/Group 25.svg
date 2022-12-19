@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="141.5" height="45" viewBox="0 0 141.5 45">
+  <g id="Group_25" data-name="Group 25" transform="translate(-141.5 -1054.5)">
+    <text id="OTIX" transform="translate(192 1082)" font-size="18" font-family="ProximaSoft-Medium, Proxima Soft" font-weight="500"><tspan x="0" y="0">OTIX</tspan></text>
+    <circle id="Ellipse_30" data-name="Ellipse 30" cx="22" cy="22" r="22" transform="translate(142 1055)" fill="#fff" stroke="rgba(0,0,0,0.1)" stroke-width="1"/>
+    <text id="Bitcoin" transform="translate(238 1080)" fill="#707070" font-size="15" font-family="ProximaSoft-Regular, Proxima Soft"><tspan x="0" y="0">Bitcoin</tspan></text>
+    <g id="Otix_Coin_Final1_4x-8" data-name="Otix Coin Final1@4x-8" transform="translate(-160.215 2928.167)">
+      <path id="Path_145" data-name="Path 145" d="M319.64-1861.743v1.257h-1.5c-.825,0-1.584.007-1.687.013s-.25.024-.328.039a1.965,1.965,0,0,0-1.6,1.651c-.022.13-.023.4-.023,7.68v7.545l.028.142a1.977,1.977,0,0,0,1.624,1.6,13.781,13.781,0,0,0,1.824.036c.918,0,1.671.009,1.674.01s0,.548,0,1.215v1.212h2.631v-2.425H326.2v2.438h2.618v-2.451h1.494c.837,0,1.573-.006,1.677-.013a1.935,1.935,0,0,0,1.923-1.821c.019-.175.019-14.857,0-15.033a1.934,1.934,0,0,0-1.5-1.756,7.68,7.68,0,0,0-1.981-.074l-1.616,0V-1863h-2.631v2.5h-3.934v-2.5H319.64Zm9.028,6.156a.167.167,0,0,1,.067.067c.022.043.023.278.023,4.353,0,2.37,0,4.347-.009,4.394l-.008.088h-9.035l-.006-.081c0-.044-.009-2.019-.012-4.388,0-3.981,0-4.31.017-4.346a.193.193,0,0,1,.11-.1c.021-.005,2.011-.011,4.423-.011C328.388-1855.61,328.625-1855.609,328.668-1855.587Z" transform="translate(0 0)"/>
+    </g>
+  </g>
+</svg>

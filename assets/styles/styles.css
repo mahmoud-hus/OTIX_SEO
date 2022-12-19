@@ -1,0 +1,145 @@
+@import url('./bootstrap.min.css');
+
+:root {
+  /* fonts  */
+  /* --primary-en: ProximaSoft-Regular;
+  --primary-ar: "Cairo", sans-serif;
+  --font-bold: ProximaSoft-Bold;
+  --font-semiBold: ProximaSoft-SemiBold;
+  --font-medium: ProximaSoft-Medium;
+  --font-regular: ProximaSoft-Regular;
+  --font-light: ProximaSoft-Light; */
+  --primary-en: 'Lato', sans-serif;
+  --primary-ar: 'Cairo', sans-serif;
+  --font-size-sm: 15px;
+  --font-size-md: 20px;
+
+  /* colors  */
+  --primary: #1c1c1c;
+  --primary-rgb: 28 28 28;
+  --secondary: #2f2f2f;
+  --dark: #000028;
+  --light: #fff;
+  --gray: #6c757d;
+  --border: #e4e4e4;
+  --text: #707070;
+  --bs-white: #fff;
+  --bs-gray: #6c757d;
+  --bs-gray-100: #f8f9fa;
+  --bs-gray-200: #e9ecef;
+  --bs-gray-300: #dee2e6;
+  --bs-gray-400: #ced4da;
+  --bs-gray-500: #adb5bd;
+  --bs-gray-600: #6c757d;
+  --bs-gray-700: #495057;
+  --bs-gray-800: #343a40;
+  --bs-gray-900: #212529;
+
+  /* other  */
+  --header-height: 80px;
+  --space-lg: 40px;
+  --space-md: 20px;
+  --space-sm: 10px;
+}
+
+[lang='ar'] {
+  direction: rtl;
+}
+
+body {
+  font-family: var(--primary-en);
+  overflow-x: hidden;
+  color: var(--dark);
+  font-size: 16px;
+}
+
+body:lang(ar) {
+  font-family: var(--primary-ar);
+  text-align: right;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.pt {
+  padding-top: calc(var(--space-lg) * 2);
+}
+
+.pb {
+  padding-bottom: calc(var(--space-lg) * 2);
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  outline: 0 !important;
+  box-shadow: none !important;
+}
+
+.btn {
+  border: none;
+  text-transform: capitalize;
+}
+
+.btn:hover {
+  background-color: var(--secondary);
+  color: var(--bs-white);
+}
+
+.terms-content {
+  line-height: 1.7;
+  margin-bottom: var(--space-md);
+  color: var(--gray);
+}
+
+.terms-content a {
+  color: var(--bs-primary);
+}
+
+.sub-list {
+  padding-inline-start: var(--space-md);
+}
+
+.about-desc {
+  font-size: 1.2rem;
+  line-height: 1.7;
+}
+
+/* .container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1320px;
+  }
+} */
