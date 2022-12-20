@@ -1,9 +1,5 @@
 <template>
-  <StaticLayout
-    :title="$t('market_title')"
-    :subtitle="$t('market_subtitle')"
-    classes="mb-0"
-  >
+  <StaticLayout :title="$t('market_title')" classes="mb-0">
     <CoinsSection :notitle="true" />
   </StaticLayout>
 </template>

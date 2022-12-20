@@ -10,22 +10,16 @@
           <b-col lg="3">
             <FeatureCard
               :title="$t('get_started_register')"
-              :list="[
-                'get_started_register_desc',
-                // 'get_started_register_desc2',
-              ]"
               img="started_signup.png"
               step="1"
               imgArrow="long-arrow.svg"
+              desc="get_started_register_desc"
             />
           </b-col>
           <b-col lg="3">
             <FeatureCard
               :title="$t('get_started_verfiy')"
-              :list="[
-                'get_started_verify_desc',
-                // 'get_started_verify_desc2'
-              ]"
+              desc="get_started_verify_desc"
               img="started_verify.png"
               step="2"
               imgArrow="long-arrow.svg"
@@ -34,11 +28,7 @@
           <b-col lg="3">
             <FeatureCard
               :title="$t('get_started_deposit')"
-              :list="[
-                'get_started_deposit_desc',
-                // 'get_started_deposit_desc2',
-                // 'get_started_deposit_desc3',
-              ]"
+              desc="get_started_deposit_desc"
               img="started_deposit.png"
               step="3"
               imgArrow="long-arrow.svg"
@@ -46,12 +36,8 @@
           </b-col>
           <b-col lg="3">
             <FeatureCard
+              desc="get_started_buy_desc"
               :title="$t('get_started_buy')"
-              :list="[
-                'get_started_buy_desc',
-                // 'get_started_buy_desc2',
-                // 'get_started_buy_desc3',
-              ]"
               img="started_buy.png"
               step="4"
             />

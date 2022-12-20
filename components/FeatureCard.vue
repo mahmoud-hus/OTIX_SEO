@@ -11,11 +11,20 @@
       class="img-fluid started_icon"
     />
     <span v-else-if="icon" class="icon"><i :class="icon"></i></span>
-    <span v-else class="icon">{{number}}</span>
+    <span v-else class="icon">{{ number }}</span>
     <span class="step d-block">{{ step }}</span>
     <h2 class="title">{{ title }}</h2>
-    <b-card-text class="text-center text-muted" v-if="desc">
-      {{ $t(desc) }}
+    <b-card-text
+      class="text-center text-muted"
+      v-if="desc"
+      v-html="$t(desc).replaceAll('/n', '<br />').substring(0, 70) + '....'"
+    >
+    </b-card-text>
+    <b-card-text
+      class="text-center text-muted the-desc-hover"
+      v-if="desc"
+      v-html="$t(desc).replaceAll('/n', '<br />')"
+    >
     </b-card-text>
     <ul v-if="list" class="list-unstyled m-0 p-0">
       <li class="" v-for="(item, index) in list" :key="index">
@@ -45,7 +54,7 @@ export default {
     'step',
     'imgArrow',
     'list',
-    "number"
+    'number',
   ],
 }
 </script>
@@ -99,5 +108,27 @@ export default {
 
 .feature-card .text-muted {
   /* font-size: 1.1rem;/ */
+}
+
+.the-desc-hover {
+  position: absolute;
+  top: 100%;
+  z-index: 2;
+  background: #fff;
+  min-height: calc(100% - 110px);
+  box-shadow: 0 0 10px rgba(0 0 0 / 0.1);
+  padding: var(--space-sm);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.feature-card:hover .the-desc-hover {
+  top: 110px;
+  opacity: 1;
+  visibility: visible;
 }
 </style>

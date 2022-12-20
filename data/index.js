@@ -436,19 +436,19 @@ export const data_blog = [
   {
     id: 1,
     title: 'A Week To Remember For Crypto',
-    image: 'assets/imgs/blog/blog.jpg',
+    image: 'blog.jpg',
     desc: 'Most cryptocurrencies suffered record losses during the week after the FTX exchange crisis, which lead to halting withdrawals, and client onboarding. FTX Token (FTT) was hit the hardest, starting from Monday, losing more than 86% of its value in the last 7 days. Suspicions of the second-largest centralized exchange falling into insolvency and even bankruptcy shook the whole industry, sending Bitcoin to its lowest since November 2020, as its price dropped by more than 16% in the last 7 days. Solana, who’s highly correlated with FTX, suffered the highest losses with a price drop of more than 47%, in addition to losing 56% of its blockchain’s TVL in the last 7 days.',
   },
   {
     id: 2,
     title: 'The Dogecoin Adventure and Game of Thrones NFTs',
-    image: 'assets/imgs/blog/blog2.jpg',
+    image: 'blog2.jpg',
     desc: 'Most cryptocurrencies suffered record losses during the week after the FTX exchange crisis, which lead to halting withdrawals, and client onboarding. FTX Token (FTT) was hit the hardest, starting from Monday, losing more than 86% of its value in the last 7 days. Suspicions of the second-largest centralized exchange falling into insolvency and even bankruptcy shook the whole industry, sending Bitcoin to its lowest since November 2020, as its price dropped by more than 16% in the last 7 days. Solana, who’s highly correlated with FTX, suffered the highest losses with a price drop of more than 47%, in addition to losing 56% of its blockchain’s TVL in the last 7 days.',
   },
   {
     id: 3,
     title: 'How To Come Out A Winner From A Bear Market?',
-    image: 'assets/imgs/blog/blog3.jpg',
+    image: 'blog3.jpg',
     desc: 'Most cryptocurrencies suffered record losses during the week after the FTX exchange crisis, which lead to halting withdrawals, and client onboarding. FTX Token (FTT) was hit the hardest, starting from Monday, losing more than 86% of its value in the last 7 days. Suspicions of the second-largest centralized exchange falling into insolvency and even bankruptcy shook the whole industry, sending Bitcoin to its lowest since November 2020, as its price dropped by more than 16% in the last 7 days. Solana, who’s highly correlated with FTX, suffered the highest losses with a price drop of more than 47%, in addition to losing 56% of its blockchain’s TVL in the last 7 days.',
   },
 ]
