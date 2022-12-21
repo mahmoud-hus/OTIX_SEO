@@ -20,17 +20,17 @@ export default {
     }
   },
   mounted() {
+    // handle cookie
+    const getCookie = Cookies.get('cookie')
+    if (getCookie) {
+      this.isSetCookie = false
+    }
+    // handle directions
     const root = document.documentElement
     const lang = this.$i18n.localeProperties
     root.setAttribute('lang', lang.code)
     root.setAttribute('dir', lang.dir)
     this.$i18n.setLocale(lang.code)
-  },
-  created() {
-    const getCookie = Cookies.get('cookie')
-    if (getCookie) {
-      this.isSetCookie = false
-    }
   },
 }
 </script>

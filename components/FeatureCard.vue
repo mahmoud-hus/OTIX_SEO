@@ -17,7 +17,7 @@
     <b-card-text
       class="text-center text-muted"
       v-if="desc"
-      v-html="$t(desc).replaceAll('/n', '<br />').substring(0, 70) + '....'"
+      v-html="$t(desc).substring(0, 50).replaceAll('/n', '<br />')"
     >
     </b-card-text>
     <b-card-text

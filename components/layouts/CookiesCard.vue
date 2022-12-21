@@ -14,10 +14,7 @@
             @onClick="handleCookie(true)"
             :name="$t('ok')"
             :style="{
-              // backgroundColor: &quot;transparent&quot;,
               minWidth: 200,
-              // color: &quot;var(--dark)&quot;,
-              // borderColor: &quot;var(--dark)&quot;,
             }"
           />
           <Btn
