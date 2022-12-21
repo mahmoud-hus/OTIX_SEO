@@ -64,6 +64,7 @@ export default {
   /* color: var(--bs-white); */
   animation: cookieAnimation 1s ease-in-out;
   transition: 0.7s;
+  z-index: 99;
 }
 
 .cookies-card.no-active {
