@@ -1,5 +1,5 @@
 <template>
-  <section class="position-relative about-section pb pt">
+  <section class="position-relative info-section pb pt">
     <b-container>
       <Title :title="title" />
       <b-row class="justify-content-center align-items-center">
@@ -20,11 +20,11 @@ export default {
 </script>
 
 <style>
-.about-section {
+.info-section {
   margin-bottom: var(--space-lg);
 }
 
-.about-section::before {
+.info-section::before {
   content: '';
   position: absolute;
   top: 0;

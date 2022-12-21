@@ -14,18 +14,14 @@
     <span v-else class="icon">{{ number }}</span>
     <span class="step d-block">{{ step }}</span>
     <h2 class="title">{{ title }}</h2>
-    <b-card-text
-      class="text-center text-muted"
-      v-if="desc"
-      v-html="$t(desc).substring(0, 50).replaceAll('/n', '<br />')"
-    >
+    <b-card-text class="text-center text-muted" v-if="desc" v-html="$t(desc)">
     </b-card-text>
-    <b-card-text
+    <!-- <b-card-text
       class="text-center text-muted the-desc-hover"
       v-if="desc"
       v-html="$t(desc).replaceAll('/n', '<br />')"
     >
-    </b-card-text>
+    </b-card-text> -->
     <ul v-if="list" class="list-unstyled m-0 p-0">
       <li class="" v-for="(item, index) in list" :key="index">
         <p class="text-center text-muted text-muted-list">

@@ -56,7 +56,7 @@ export default {
 .card-header button {
   text-align: start;
   height: 50px;
-  background: var(--bs-gray-400);
+  background: var(--bs-gray-200);
   color: var(--dark);
   font-weight: bold;
   border-radius: 0;
@@ -64,7 +64,7 @@ export default {
 
 .card-header button:focus,
 .card-header button:active {
-  background: var(--bs-gray-400) !important;
+  background: var(--bs-gray-200) !important;
   box-shadow: none;
   border: 0;
 }
@@ -72,8 +72,8 @@ export default {
 }
 
 .card-header button.not-collapsed {
-  background: var(--dark) !important;
-  color: var(--bs-white);
+  background: var(--bs-gray-200) !important;
+  color: var(--dark);
 }
 
 .card-body {
