@@ -43,13 +43,13 @@ export default {
       items: [
         {
           active: true,
-          img: 'mock1.png',
+          img: 'tab1.png',
           title: 'trade_with_your_currency',
           list: ['AED_and_SAR_are_accepted_for_deposits_and_transactions'],
         },
         {
           active: false,
-          img: 'mock1.png',
+          img: 'tab2.png',
           title: 'largest_coins_available',
           list: [
             'trade_with_more_than_60_cryptocurrencies',
@@ -58,7 +58,7 @@ export default {
         },
         {
           active: false,
-          img: 'mock1.png',
+          img: 'tab3.png',
           title: 'safe_secure',
           list: [
             'we_use_the_most_secure_solutions_available_to_store_your_cryptocurrency_in_cold_storage',
@@ -66,7 +66,7 @@ export default {
         },
         {
           active: false,
-          img: 'mock1.png',
+          img: 'tab4.png',
           title: 'rade_wherever_you_are',
           list: [
             'with_our_android_and_ios_apps_you_can_trade_and_invest_while_on_the_go',

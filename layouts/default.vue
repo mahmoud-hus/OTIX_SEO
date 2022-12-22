@@ -38,5 +38,6 @@ export default {
 <style>
 .main-layout {
   min-height: 100vh;
+  overflow-x: hidden;
 }
 </style>
