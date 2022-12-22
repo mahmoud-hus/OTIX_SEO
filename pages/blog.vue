@@ -2,8 +2,8 @@
   <StaticLayout :title="$t('blog_title')" :subtitle="$t('blog_subtitle')">
     <section class="pt pb">
       <b-container>
-        <b-row>
-          <b-col :key="index" v-for="(item, index) in data_blog">
+        <b-row class="g-5">
+          <b-col md="6" :key="index" v-for="(item, index) in data_blog">
             <nuxt-link :to="item.id" class="blog-item d-block h-100">
               <div class="position-relative" :style="{ height: '220px' }">
                 <img

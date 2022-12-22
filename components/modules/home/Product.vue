@@ -2,14 +2,14 @@
   <b-row class="justify-content-center align-items-center">
     <b-col lg="9">
       <b-row class="align-items-center gx-5" :class="reverseRow">
-        <b-col>
+        <b-col md="6">
           <img
             :src="require(`~/assets/imgs/global/${img}`)"
             class="img-fluid h-200"
             alt=""
           />
         </b-col>
-        <b-col>
+        <b-col md="6">
           <div class="d-block align-items-start">
             <h5>{{ $t('otix_Lite') }}</h5>
             <p>{{ $t('products_details') }}</p>

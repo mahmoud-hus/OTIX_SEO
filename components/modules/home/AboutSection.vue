@@ -2,7 +2,7 @@
   <section class="about-section pb">
     <b-container>
       <Title :title="$t('about_us')" />
-      <b-row class="gx-5">
+      <b-row class="gx-5 gy-4">
         <b-col lg="6">
           <div class="about-img position-relative">
             <img src="~/assets/imgs/global/about.png" class="img-fluid w-100" />

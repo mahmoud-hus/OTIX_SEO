@@ -137,6 +137,7 @@ export default {
 .fees-page .nav-tabs {
   display: flex;
   align-items: center;
+  gap: 20px;
   justify-content: center;
   margin-bottom: 40px;
   border: none;

@@ -12,13 +12,13 @@
           <b-row class="align-items-center justify-content-center">
             <b-col lg="8">
               <b-row class="align-items-center">
-                <b-col>
+                <b-col md="6">
                   <img
                     :src="require('~/assets/imgs/global/' + item.img)"
                     class="img-fluid img"
                   />
                 </b-col>
-                <b-col>
+                <b-col md="6">
                   <p
                     class="way-section-desc"
                     v-for="(it, idx) in item.list"
