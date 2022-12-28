@@ -1,6 +1,6 @@
 <template>
   <section class="landing-section">
-    <div class="landing-content pt pb">
+    <div class="landing-content pt">
       <b-container class="position-relative">
         <b-row class="justify-content-between">
           <b-col lg="6">
