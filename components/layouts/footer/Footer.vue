@@ -54,14 +54,14 @@
           <b-col md="6" lg="3">
             <h4 class="links-title text-capitalize">{{ $t('our_apps') }}</h4>
             <div class="apps-links d-flex align-items-center">
-              <a href="http://test.com" class="app-link flex-fill">
+              <a href="#" class="app-link flex-fill">
                 <img
                   src="~/assets/imgs/global/ios.svg"
                   alt="apple app store"
                   class="img-fluid"
                 />
               </a>
-              <a href="http://test.com" class="app-link flex-fill">
+              <a href="#" class="app-link flex-fill">
                 <img
                   src="~/assets/imgs/global/android.svg"
                   alt="google play store"

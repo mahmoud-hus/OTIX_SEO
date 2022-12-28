@@ -6,6 +6,7 @@
       class="login-btn d-lg-flex align-items-center justify-content-center text-capitalize"
       :class="classes"
       :style="styles"
+      target="_blank"
     >
       {{ $t(title) }}
     </a>
