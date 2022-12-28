@@ -1,5 +1,5 @@
 <template>
-  <section class="about-section pb">
+  <section class="about-section pb pt">
     <b-container>
       <Title :title="$t('about_us')" />
       <b-row class="gx-5">

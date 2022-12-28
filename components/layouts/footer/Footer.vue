@@ -163,10 +163,10 @@ export default {
               name: 'link_services_quick_trade',
               type: 'url',
             },
-            {
-              path: '/market',
-              name: 'link_services_market',
-            },
+            // {
+            //   path: '/market',
+            //   name: 'link_services_market',
+            // },
             {
               path: '/referral',
               name: 'link_services_referral',

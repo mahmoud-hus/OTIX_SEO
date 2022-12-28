@@ -1,6 +1,6 @@
 <template>
   <section class="landing-section">
-    <div class="landing-content pt pb">
+    <div class="landing-content pt">
       <b-container class="position-relative">
         <b-row class="justify-content-between">
           <b-col lg="6">
@@ -44,7 +44,7 @@
           </b-col>
           <b-col lg="5" class="d-none d-lg-block">
             <div class="landing-imgs position-relative h-100 w-100">
-              <div class="landing-img landing-img-tablet">
+              <div class="d-flex l-img-tablet">
                 <img
                   src="~/assets/imgs/global/ltablet.png"
                   alt="tablet"
@@ -147,42 +147,16 @@ export default {}
   width: 180px;
 }
 
+.l-img-tablet img {
+  max-width: 350px;
+  margin-inline-start: auto;
+}
+
 .landing-content .landing-img {
   position: absolute;
-  /* bottom: calc(-1 * (var(--space-lg) + 40px)); */
   left: 0;
+  bottom: 0;
   z-index: 9;
-  /* padding: var(--space-sm); */
-  /* background-color: var(--secondary); */
-  /* border-radius: 10px; */
-  overflow: hidden;
-  display: inline-flex;
-  /* height: 120%; */
-}
-
-.landing-content .landing-img.landing-img-tablet img {
-  position: relative;
-  right: -100px;
-}
-
-.landing-content .landing-img.landing-img-tablet:lang(ar) img {
-  left: -100px;
-  right: auto;
-}
-
-.landing-content .landing-img.landing-img-phone img {
-  position: relative;
-  left: -30px;
-}
-
-.landing-content .landing-img.landing-img-phone:lang(ar) img {
-  right: -30px;
-  left: auto;
-}
-
-.landing-content .landing-img:lang(en) {
-  right: 0;
-  left: auto;
 }
 
 .landing-content .landing-img-phone:lang(en) {
@@ -190,25 +164,16 @@ export default {}
   left: 0;
 }
 
-.landing-content .landing-img-phone {
+.landing-content .landing-img.landing-img-phone img {
+  position: relative;
+  left: -120px;
+  bottom: -100px;
+  max-height: 450px;
+}
+
+.landing-content .landing-img.landing-img-phone:lang(ar) img {
+  right: -195px;
   left: auto;
-  right: 100px;
-  height: 100%;
-  bottom: calc(-1 * (var(--space-lg) + 80px));
-  animation: animate 1.5s ease-in-out infinite alternate;
-}
-
-.landing-content .landing-img img {
-  border-radius: inherit;
-}
-
-@keyframes animate {
-  from {
-    transform: translateY(0);
-  }
-  to {
-    transform: translateY(100px);
-  }
 }
 
 /* wavy  */
