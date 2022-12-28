@@ -194,8 +194,8 @@ export default {}
   left: auto;
   right: 100px;
   height: 100%;
-  bottom: calc(-1 * (var(--space-lg) + 80px));
-  animation: animate 1.5s ease-in-out infinite alternate;
+  bottom: calc(-1 * (var(--space-lg) + 180px));
+  
 }
 
 .landing-content .landing-img img {
