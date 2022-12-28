@@ -70,13 +70,13 @@
               </a>
             </div>
             <div class="social-links">
-              <a href="https://www.facebook.com/OtixExchange" class="social-link">
+              <a target="_blank" href="https://www.facebook.com/OtixExchange" class="social-link">
                 <i class="lab la-facebook-f"></i>
               </a>
-              <a href="https://twitter.com/OtixExchange" class="social-link">
+              <a target="_blank" href="https://twitter.com/OtixExchange" class="social-link">
                 <i class="lab la-twitter"></i>
               </a>
-              <a href="https://www.instagram.com/otixexchange/" class="social-link">
+              <a target="_blank" href="https://www.instagram.com/otixexchange/" class="social-link">
                 <i class="lab la-instagram"></i>
               </a>
             </div>
