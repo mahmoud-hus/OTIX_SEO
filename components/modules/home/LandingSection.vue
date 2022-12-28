@@ -24,14 +24,14 @@
                   </div>
                 </b-form>
                 <div class="landing-apps d-flex align-items-center">
-                  <a href="http://test.com" class="app-link">
+                  <a href="#" class="app-link">
                     <img
                       src="~/assets/imgs/global/ios.svg"
                       alt="apple app store"
                       class="img-fluid"
                     />
                   </a>
-                  <a href="http://test.com" class="app-link">
+                  <a href="#" class="app-link">
                     <img
                       src="~/assets/imgs/global/android.svg"
                       alt="google play store"
