@@ -18,7 +18,7 @@
                     class="img-fluid img"
                   />
                 </b-col>
-                <b-col>
+                <b-col md="6">
                   <p
                     class="way-section-desc"
                     v-for="(it, idx) in item.list"

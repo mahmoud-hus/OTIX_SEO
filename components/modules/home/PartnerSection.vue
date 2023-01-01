@@ -2,7 +2,10 @@
   <section>
     <b-container>
       <b-row
-        class="partner_section d-flex flex-row pb pt justify-content-center gx-5"
+        class="partner_section d-flex flex-row pb pt justify-content-center gx-5 gy-5"
+        cols="2"
+        cols-md="4"
+        cols-lg="5"
       >
         <img
           v-for="(item, index) in data"

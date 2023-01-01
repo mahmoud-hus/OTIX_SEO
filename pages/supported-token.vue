@@ -3,7 +3,7 @@
     <b-container>
       <section class="pt pb">
         <Search :value="search" @input="onChange" />
-        <b-row cols="5" class="g-5">
+        <b-row cols="2" cols-md="3" cols-lg="5" class="g-5">
           <b-col :key="index" v-for="(item, index) in data">
             <div class="token-item d-flex align-items-center gap-4">
               <img :src="item.imageUrl" alt="icon" class="img-fluid" />

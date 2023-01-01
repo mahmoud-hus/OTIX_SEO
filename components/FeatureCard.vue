@@ -102,6 +102,12 @@ export default {
   transform: translateX(50%);
 }
 
+@media (max-width: 991px) {
+  .feature-card .imgArrow {
+    display: none;
+  }
+}
+
 .feature-card .text-muted {
   /* font-size: 1.1rem;/ */
 }

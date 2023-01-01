@@ -7,7 +7,7 @@
     <div>
       <b-container>
         <b-row class="row gy-4 get-started-cards row-cards">
-          <b-col lg="3">
+          <b-col md="6" lg="3">
             <FeatureCard
               :title="$t('get_started_register')"
               img="started_signup.png"
@@ -16,7 +16,7 @@
               desc="get_started_register_desc"
             />
           </b-col>
-          <b-col lg="3">
+          <b-col md="6" lg="3">
             <FeatureCard
               :title="$t('get_started_verfiy')"
               desc="get_started_verify_desc"
@@ -25,7 +25,7 @@
               imgArrow="long-arrow.svg"
             />
           </b-col>
-          <b-col lg="3">
+          <b-col md="6" lg="3">
             <FeatureCard
               :title="$t('get_started_deposit')"
               desc="get_started_deposit_desc"
@@ -34,7 +34,7 @@
               imgArrow="long-arrow.svg"
             />
           </b-col>
-          <b-col lg="3">
+          <b-col md="6" lg="3">
             <FeatureCard
               desc="get_started_buy_desc"
               :title="$t('get_started_buy')"

@@ -1,6 +1,6 @@
 <template>
   <div class="position-relative fees-card">
-    <b-row class="justify-content-between">
+    <b-row class="justify-content-between gy-4">
       <b-col lg="7">
         <div class="fees-card-inner">
           <h6 class="subtitle text-uppercase">{{ $t(subtitle) }}</h6>
