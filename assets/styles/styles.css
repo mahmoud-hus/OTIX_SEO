@@ -143,3 +143,9 @@ textarea:focus {
     max-width: 1320px;
   }
 } */
+
+@media (min-width: 991px) {
+  .text-lg-justify {
+    text-align: justify !important;
+  }
+}
