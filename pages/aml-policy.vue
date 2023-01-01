@@ -3,8 +3,8 @@
     <section class="pt pb">
       <b-container>
         <section class="text-center">
-          <InnerTitle title="money_laundering_prevention_manual" />
-          <InnerTitle title="master_sheet__Version_control" sub />
+          <InnerTitle :title="$t('money_laundering_prevention_manual')" />
+          <InnerTitle :title="$t('master_sheet__Version_control')" sub />
           <table class="mt-5 mb-5 table-bordered w-100">
             <thead>
               <tr>
@@ -26,7 +26,7 @@
             </tbody>
           </table>
         </section>
-        <InnerTitle title="aml_title" />
+        <InnerTitle :title="$t('aml_title')" />
         <article>
           <p class="terms-content">
             {{
@@ -108,7 +108,7 @@
           </ContainerInner>
 
           <ContainerInner>
-            <InnerTitle title="anti_money" sub />
+            <InnerTitle :title="$t('anti_money')" sub />
             <p class="terms-content">{{ $t('anti_money_p1') }}</p>
             <p class="terms-content m-0">{{ $t('anti_money_p2') }}</p>
             <Listing translation="aml" :list="['anti_money_l1']" />

@@ -54,10 +54,10 @@ export default {
           type: 'url',
           url: 'https://trade.otix.exchange/buysell',
         },
-        {
-          path: '/market',
-          name: 'link_market',
-        },
+        // {
+        //   path: '/market',
+        //   name: 'link_market',
+        // },
         {
           path: '/fees',
           name: 'link_fees',

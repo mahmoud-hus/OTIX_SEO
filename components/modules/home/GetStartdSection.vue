@@ -44,7 +44,9 @@
           </b-col>
         </b-row>
         <div class="get-started-btn d-flex justify-content-center">
-          <Btn :name="$t('get_started_btn')" :styles="{ minWidth: '200px' }" />
+          <a href="https://trade.otix.exchange/" target="_blank" class="main-btn d-flex align-items-center justify-content-center text-capitalize">
+            {{ $t('get_started_btn') }}
+          </a>
         </div>
       </b-container>
     </div>
@@ -58,5 +60,15 @@ export default {}
 <style>
 .get-started-btn {
   margin-top: var(--space-lg);
+}
+.get-started-btn .main-btn {
+  min-width: 200px;
+  height: 45px;
+  font-size: 1.05rem;
+  background-color: var(--primary);
+  padding: 0 var(--space-md);
+  color: #fff;
+  border-radius: 5px;
+
 }
 </style>

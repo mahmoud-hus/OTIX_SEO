@@ -54,14 +54,14 @@
           <b-col md="6" lg="3">
             <h4 class="links-title text-capitalize">{{ $t('our_apps') }}</h4>
             <div class="apps-links d-flex align-items-center">
-              <a href="http://test.com" class="app-link flex-fill">
+              <a href="#" class="app-link flex-fill">
                 <img
                   src="~/assets/imgs/global/ios.svg"
                   alt="apple app store"
                   class="img-fluid"
                 />
               </a>
-              <a href="http://test.com" class="app-link flex-fill">
+              <a href="#" class="app-link flex-fill">
                 <img
                   src="~/assets/imgs/global/android.svg"
                   alt="google play store"
@@ -70,14 +70,14 @@
               </a>
             </div>
             <div class="social-links">
-              <a href="http://test.com" class="social-link">
+              <a target="_blank" href="https://www.facebook.com/OtixExchange" class="social-link">
                 <i class="lab la-facebook-f"></i>
               </a>
-              <a href="http://test.com" class="social-link">
+              <a target="_blank" href="https://twitter.com/OtixExchange" class="social-link">
                 <i class="lab la-twitter"></i>
               </a>
-              <a href="http://test.com" class="social-link">
-                <i class="lab la-linkedin-in"></i>
+              <a target="_blank" href="https://www.instagram.com/otixexchange/" class="social-link">
+                <i class="lab la-instagram"></i>
               </a>
             </div>
           </b-col>
@@ -163,10 +163,10 @@ export default {
               name: 'link_services_quick_trade',
               type: 'url',
             },
-            {
-              path: '/market',
-              name: 'link_services_market',
-            },
+            // {
+            //   path: '/market',
+            //   name: 'link_services_market',
+            // },
             {
               path: '/referral',
               name: 'link_services_referral',

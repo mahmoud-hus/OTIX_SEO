@@ -1,5 +1,5 @@
 <template>
-  <section class="coins-section pt pb">
+  <section class="coins-section pt pb d-none">
     <b-container v-if="!notitle">
       <Title :title="$t('market')" />
     </b-container>

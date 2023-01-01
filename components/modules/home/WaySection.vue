@@ -10,9 +10,9 @@
           :key="index"
         >
           <b-row class="align-items-center justify-content-center">
-            <b-col lg="8">
+            <b-col lg="9">
               <b-row class="align-items-center">
-                <b-col md="6">
+                <b-col class="d-flex justify-content-center">
                   <img
                     :src="require('~/assets/imgs/global/' + item.img)"
                     class="img-fluid img"
