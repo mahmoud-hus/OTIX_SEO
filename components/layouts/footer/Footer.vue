@@ -54,7 +54,28 @@
           <b-col md="6" lg="3">
             <h4 class="links-title text-capitalize">{{ $t('our_apps') }}</h4>
             <div class="apps-links d-flex align-items-center">
-              <a href="#" class="app-link flex-fill">
+              <a href="#" class="app-link position-relative d-flex align-items-end gap-1 border border-2 flex-fill">
+                <!-- <img
+                  src="~/assets/imgs/global/ios.svg"
+                  alt="apple app store"
+                  class="img-fluid"
+                /> -->
+                <span class="app-link-subtitle">{{$t("download_from")}}</span>
+                <i class="lab la-apple icon"></i>
+                <span class="app-link-title text-capitalize">{{$t("app_store")}}</span>
+              </a>
+              <a href="#" class="app-link position-relative d-flex align-items-end gap-1 border border-2 flex-fill">
+                <!-- <img
+                  src="~/assets/imgs/global/android.svg"
+                  alt="google play store"
+                  class="img-fluid"
+                /> -->
+                
+                <span class="app-link-subtitle">{{$t("download_from")}}</span>
+                <i class="lab la-google-play icon"></i>
+                <span class="app-link-title text-capitalize">{{$t("google_play")}}</span>
+              </a>
+              <!-- <a href="#" class="app-link flex-fill">
                 <img
                   src="~/assets/imgs/global/ios.svg"
                   alt="apple app store"
@@ -67,7 +88,7 @@
                   alt="google play store"
                   class="img-fluid"
                 />
-              </a>
+              </a> -->
             </div>
             <div class="social-links">
               <a target="_blank" href="https://www.facebook.com/OtixExchange" class="social-link">
@@ -299,5 +320,18 @@ export default {
   font-size: 2.4rem;
   color: var(--bs-gray-300);
   margin-inline-end: var(--space-md);
+}
+
+.footer-content .app-link {
+  min-width: 150px;
+  min-height: 47px;
+}
+
+.footer-content .app-link .icon {
+  font-size: 30px;
+}
+
+.footer-content .app-link .app-link-title {
+  font-size: 1rem;
 }
 </style>

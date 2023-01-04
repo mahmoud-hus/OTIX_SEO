@@ -771,5 +771,8 @@
   "use_our_simple_otx_to_usd_calculator": "Use our simple OTX to USD calculator to see how much OTX you can buy with USD.",
   "why_buy_otx_with_otix": "Why Buy OTX with Otix ?",
   "pay_for_goods_and_services": "Pay for goods and services without a bank or other financial services provider",
-  "send_payments_around_the_world": "Send payments around the world instantly and easily"
+  "send_payments_around_the_world": "Send payments around the world instantly and easily",
+  "download_from": "download from",
+  "google_play": "google play",
+  "app_store": "app store"
 }

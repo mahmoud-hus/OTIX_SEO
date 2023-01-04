@@ -24,19 +24,26 @@
                   </div>
                 </b-form>
                 <div class="landing-apps d-flex align-items-center">
-                  <a href="#" class="app-link">
-                    <img
+                    <a href="#" class="app-link position-relative d-flex align-items-end gap-1 border border-2">
+                    <!-- <img
                       src="~/assets/imgs/global/ios.svg"
                       alt="apple app store"
                       class="img-fluid"
-                    />
+                    /> -->
+                    <span class="app-link-subtitle">{{$t("download_from")}}</span>
+                    <i class="lab la-apple icon"></i>
+                    <span class="app-link-title text-capitalize">{{$t("app_store")}}</span>
                   </a>
-                  <a href="#" class="app-link">
-                    <img
+                  <a href="#" class="app-link position-relative d-flex align-items-end gap-1 border border-2">
+                    <!-- <img
                       src="~/assets/imgs/global/android.svg"
                       alt="google play store"
                       class="img-fluid"
-                    />
+                    /> -->
+                    
+                    <span class="app-link-subtitle">{{$t("download_from")}}</span>
+                    <i class="lab la-google-play icon"></i>
+                    <span class="app-link-title text-capitalize">{{$t("google_play")}}</span>
                   </a>
                 </div>
               </div>
@@ -193,5 +200,36 @@ export default {}
 
 .custom-shape-divider-top-1665473795 .shape-fill {
   fill: var(--primary);
+}
+
+.app-link {
+  border-radius: 10px;
+  color: #fff;
+  padding: 5px 10px;
+}
+
+.app-link:lang(ar) {
+  flex-direction: row-reverse;
+}
+
+.app-link .app-link-subtitle {
+  position: absolute;
+  color: #fff;
+  top: 2px;
+  right: 10px;
+  font-size: .75rem;
+  text-transform: capitalize;
+}
+
+.app-link .icon {
+  font-size: 40px;
+}
+
+.app-link .app-link-title {
+  font-size: 1.4rem;
+}
+
+.app-link:hover {
+  color: #fff;
 }
 </style>
