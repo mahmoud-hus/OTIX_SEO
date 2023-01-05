@@ -52,7 +52,7 @@ export default {
           path: '/quick-trade',
           name: 'link_quick_trade',
           type: 'url',
-          url: 'https://trade.otix.exchange/buysell',
+          url: 'https://trade.otix.exchange/buy-crypto',
         },
         // {
         //   path: '/market',

@@ -1,7 +1,7 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'otixVue',
+    title: 'Otix Exchange',
     htmlAttrs: {
       lang: 'en',
       dir: 'ltr',
@@ -9,7 +9,12 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      {
+        hid: 'description',
+        name: 'description',
+        content:
+          'Otix Exchange UAB is a full-service of a virtual currency exchange operator and deposit virtual currency exchange operator platform covering users through otix.exchange.',
+      },
       { name: 'format-detection', content: 'telephone=no' },
     ],
     link: [

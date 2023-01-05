@@ -5,8 +5,8 @@
         :title="$t('products_title')"
         :subtitle="$t('products_subTitle')"
       />
-      <Product img="mock1.png" />
-      <Product reverseRow="flex-row-reverse" img="mock2.png" />
+      <Product img="mock1.png" link="https://trade.otix.exchange"/>
+      <Product reverseRow="flex-row-reverse" img="mock2.png" link="https://trade.otix.exchange/buy-crypto" />
     </b-container>
   </section>
 </template>
