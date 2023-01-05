@@ -53,7 +53,7 @@ export default {
           title: 'largest_coins_available',
           list: [
             'trade_with_more_than_60_cryptocurrencies',
-            'trading_pairings',
+            // 'trading_pairings',
           ],
         },
         {

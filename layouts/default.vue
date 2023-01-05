@@ -13,12 +13,40 @@ import FooterLayout from '~/components/layouts/footer/Footer.vue'
 import CookiesCardLayout from '~/components/layouts/CookiesCard.vue'
 import Cookies from 'js-cookie'
 export default {
-  head() {
-    return this.headData
+
+  components: { HeaderLayout, FooterLayout, CookiesCardLayout },
+  data() {
+    return {
+      isSetCookie: true,
+    }
+  },
+  methods: {
+    langHandler () {
+      // handle directions
+      const root = document.documentElement
+      const lang = this.$i18n.localeProperties
+      root.setAttribute('lang', lang.code)
+      root.setAttribute('dir', lang.dir)
+      this.$i18n.setLocale(lang.code)
+    }
+  },
+  mounted() {
+    // handle cookie
+    const getCookie = Cookies.get('cookie')
+    if (getCookie) {
+      this.isSetCookie = false
+    }
+    this.langHandler()
   },
   computed: {
     headData() {
+      const lang = this.$i18n.localeProperties
+
       return {
+        htmlAttrs: {
+          lang: lang.code,
+          dir: lang.dir,
+        },
         title: this.$t('pageTitle'),
         meta: [
           {
@@ -30,26 +58,9 @@ export default {
       }
     }
   },
-  components: { HeaderLayout, FooterLayout, CookiesCardLayout },
-  data() {
-    return {
-      isSetCookie: true,
-    }
-  },
-  mounted() {
-    // handle cookie
-    const getCookie = Cookies.get('cookie')
-    if (getCookie) {
-      this.isSetCookie = false
-    }
-    // handle directions
-    const root = document.documentElement
-    const lang = this.$i18n.localeProperties
-    root.setAttribute('lang', lang.code)
-    root.setAttribute('dir', lang.dir)
-    this.$i18n.setLocale(lang.code)
-    this.headData
-  },
+  head() {
+    return this.headData
+  }
 }
 </script>
 

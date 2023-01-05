@@ -11,9 +11,8 @@
         </b-col>
         <b-col md="6">
           <div class="d-block align-items-start">
-            <h5>{{ $t('otix_Lite') }}</h5>
-            <p>{{ $t('products_details') }}</p>
-            <p>{{ $t('products_details2') }}</p>
+            <h5>{{ title }}</h5>
+            <p>{{ desc }}</p>
             <div class="d-flex mt-5" :style="{ gap: 20 }">
               <Btn
                 :name="$t('Learn_More')"
@@ -37,7 +36,7 @@
 
 <script>
 export default {
-  props: ['reverseRow', 'img', 'link'],
+  props: ['reverseRow', 'img', 'link', 'title', 'desc'],
 }
 </script>
 
