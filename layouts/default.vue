@@ -13,6 +13,23 @@ import FooterLayout from '~/components/layouts/footer/Footer.vue'
 import CookiesCardLayout from '~/components/layouts/CookiesCard.vue'
 import Cookies from 'js-cookie'
 export default {
+  head() {
+    return this.headData
+  },
+  computed: {
+    headData() {
+      return {
+        title: this.$t('pageTitle'),
+        meta: [
+          {
+            hid: 'description',
+            name: 'description',
+            content: this.$t('pageDescription')
+          }
+        ],
+      }
+    }
+  },
   components: { HeaderLayout, FooterLayout, CookiesCardLayout },
   data() {
     return {
@@ -31,6 +48,7 @@ export default {
     root.setAttribute('lang', lang.code)
     root.setAttribute('dir', lang.dir)
     this.$i18n.setLocale(lang.code)
+    this.headData
   },
 }
 </script>

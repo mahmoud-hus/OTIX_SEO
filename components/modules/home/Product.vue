@@ -20,16 +20,13 @@
                 classes="flex-fill"
                 :styles="{ maxWidth: 200 }"
               />
-              <Btn
-                :name="$t('Start_Now')"
-                classes="flex-fill"
-                :styles="{
-                  backgroundColor: 'transparent',
-                  maxWidth: 200,
-                  color: 'var(--dark)',
-                  borderColor: 'var(--dark)',
-                }"
-              />
+              <a target="_blank" :href="link" class="flex-fill d-flex align-items-center justify-content-center main-btn" :style="{
+                backgroundColor: 'transparent',
+                maxWidth: 200,
+                color: 'var(--dark)',
+                borderColor: 'var(--dark)',
+              }">{{$t("Start_Now")}}</a>
+            
             </div>
           </div>
         </b-col>
@@ -40,7 +37,7 @@
 
 <script>
 export default {
-  props: ['reverseRow', 'img'],
+  props: ['reverseRow', 'img', 'link'],
 }
 </script>
 
