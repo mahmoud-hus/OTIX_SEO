@@ -149,3 +149,9 @@ textarea:focus {
     text-align: justify !important;
   }
 }
+
+@media (min-width: 992px) {
+  .text-lg-start {
+    text-align: start !important;
+  }
+}
