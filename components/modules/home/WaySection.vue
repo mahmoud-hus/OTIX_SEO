@@ -16,6 +16,7 @@
                   <img
                     :src="require('~/assets/imgs/global/' + item.img)"
                     class="img-fluid img"
+                    :style="item.style"
                   />
                 </b-col>
                 <b-col md="6">
@@ -46,6 +47,9 @@ export default {
           img: 'tab1.png',
           title: 'trade_with_your_currency',
           list: ['AED_and_SAR_are_accepted_for_deposits_and_transactions'],
+          style: {
+            filter: 'drop-shadow(0 1px 3px rgba(0 0 0 / .2));'
+          }
         },
         {
           active: false,
@@ -55,6 +59,9 @@ export default {
             'trade_with_more_than_60_cryptocurrencies',
             // 'trading_pairings',
           ],
+          style: {
+            filter: 'drop-shadow(0 1px 3px rgba(0 0 0 / .2));'
+          }
         },
         {
           active: false,
@@ -63,6 +70,9 @@ export default {
           list: [
             'we_use_the_most_secure_solutions_available_to_store_your_cryptocurrency_in_cold_storage',
           ],
+          style: {
+            filter: 'drop-shadow(0 1px 3px rgba(0 0 0 / .2));'
+          }
         },
         {
           active: false,
@@ -71,6 +81,9 @@ export default {
           list: [
             'with_our_android_and_ios_apps_you_can_trade_and_invest_while_on_the_go',
           ],
+          style: {
+            maxWidth: "200px"
+          }
         },
       ],
     }
