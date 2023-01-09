@@ -334,4 +334,11 @@ export default {
 .footer-content .app-link .app-link-title {
   font-size: 1rem;
 }
+
+.footer-content  .app-link:lang(ar) {
+  flex-direction: row;
+}
+.footer-content  .app-link:lang(ar) .app-link-subtitle {
+  right: 45px;
+}
 </style>
