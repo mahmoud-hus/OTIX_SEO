@@ -216,9 +216,16 @@ export default {}
   position: absolute;
   color: #fff;
   top: 2px;
-  right: 10px;
   font-size: .75rem;
   text-transform: capitalize;
+  left: 58px;
+}
+
+
+.app-link .app-link-subtitle:lang(ar) {
+  left: auto;
+  right: 10px;
+  top: 0px;
 }
 
 .app-link .icon {
