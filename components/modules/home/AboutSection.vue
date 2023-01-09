@@ -9,7 +9,7 @@
           </div>
         </b-col>
         <b-col lg="6">
-          <h5 class="about-title fw-bold text-center text-lg-start">{{ $t('get_started_subtitle') }}</h5>
+          <!-- <h5 class="about-title fw-bold text-center text-lg-start">{{ $t('get_started_subtitle') }}</h5> -->
           <p class="about-desc m-0 text-center text-lg-justify">
             {{ $t('about_content_desc') }}
           </p>
