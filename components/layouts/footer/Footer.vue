@@ -16,7 +16,7 @@
     <div class="footer-content">
       <b-container>
         <b-row class="g-4">
-          <b-col sm="6" lg="3" :key="index" v-for="(item, index) in links">
+          <b-col sm="6" xl="3" :key="index" v-for="(item, index) in links">
             <div class="links">
               <img
                 v-if="item.logo"
@@ -51,7 +51,7 @@
               </div>
             </div>
           </b-col>
-          <b-col md="6" lg="3">
+          <b-col md="6" xl="3">
             <h4 class="links-title text-capitalize">{{ $t('our_apps') }}</h4>
             <div class="apps-links d-flex align-items-center">
               <a href="#" class="app-link position-relative d-flex align-items-end gap-1 border border-2 flex-fill">
@@ -341,6 +341,7 @@ export default {
 
 .footer-content  .app-link .app-link-subtitle {
   left: 45px;
+  white-space: nowrap;
 }
 .footer-content  .app-link:lang(ar) .app-link-subtitle {
   right: 45px;
